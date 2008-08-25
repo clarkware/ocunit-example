@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B69927004C24BDE00475B53 /* FahrenheitValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B69926E04C24BDE00475B53 /* FahrenheitValueTransformer.h */; };
+		1B69927104C24BDE00475B53 /* FahrenheitValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B69926F04C24BDE00475B53 /* FahrenheitValueTransformer.m */; };
+		1BB9E6C804BB448000842B78 /* CentigradeValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB9E6C604BB448000842B78 /* CentigradeValueTransformer.h */; };
+		1BB9E6C904BB448000842B78 /* CentigradeValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9E6C704BB448000842B78 /* CentigradeValueTransformer.m */; };
+		1BB9E6CE04BB450F00842B78 /* ApplicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB9E6CC04BB450F00842B78 /* ApplicationDelegate.h */; };
+		1BB9E6CF04BB450F00842B78 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9E6CD04BB450F00842B78 /* ApplicationDelegate.m */; };
+		1BB9E7A704BB595700842B78 /* RankineValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB9E7A504BB595700842B78 /* RankineValueTransformer.h */; };
+		1BB9E7A804BB595700842B78 /* RankineValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9E7A604BB595700842B78 /* RankineValueTransformer.m */; };
+		2709A6E407BEEB3900B1DB38 /* TemperatureTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E282A907BE9E7B00475320 /* TemperatureTest.m */; };
+		2709A6E607BEEB5000B1DB38 /* CentigradeValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9E6C704BB448000842B78 /* CentigradeValueTransformer.m */; };
+		2709A6E707BEEB5700B1DB38 /* TemperatureCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E283F707BEB80100475320 /* TemperatureCalculator.m */; };
+		2729891007C118E500A62B61 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2729890F07C118E500A62B61 /* SenTestingKit.framework */; };
+		27E283F807BEB80100475320 /* TemperatureCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E283F607BEB80100475320 /* TemperatureCalculator.h */; };
+		27E283F907BEB80100475320 /* TemperatureCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E283F707BEB80100475320 /* TemperatureCalculator.m */; };
+		27E2848007BEBE5800475320 /* PressureLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E2847E07BEBE5800475320 /* PressureLookup.h */; };
+		418809AB04D33016003541D6 /* Temperature Converter_Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 418809AA04D33016003541D6 /* Temperature Converter_Prefix.pch */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1B69926E04C24BDE00475B53 /* FahrenheitValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FahrenheitValueTransformer.h; sourceTree = "<group>"; };
+		1B69926F04C24BDE00475B53 /* FahrenheitValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FahrenheitValueTransformer.m; sourceTree = "<group>"; };
+		1BB9E6C604BB448000842B78 /* CentigradeValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentigradeValueTransformer.h; sourceTree = "<group>"; };
+		1BB9E6C704BB448000842B78 /* CentigradeValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentigradeValueTransformer.m; sourceTree = "<group>"; };
+		1BB9E6CC04BB450F00842B78 /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		1BB9E6CD04BB450F00842B78 /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		1BB9E7A504BB595700842B78 /* RankineValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankineValueTransformer.h; sourceTree = "<group>"; };
+		1BB9E7A604BB595700842B78 /* RankineValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankineValueTransformer.m; sourceTree = "<group>"; };
+		2729890F07C118E500A62B61 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
+		27E2828D07BE9AC500475320 /* Untitled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Untitled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E282A807BE9E7B00475320 /* TemperatureTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureTest.h; sourceTree = "<group>"; };
+		27E282A907BE9E7B00475320 /* TemperatureTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureTest.m; sourceTree = "<group>"; };
+		27E283F607BEB80100475320 /* TemperatureCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureCalculator.h; sourceTree = "<group>"; };
+		27E283F707BEB80100475320 /* TemperatureCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureCalculator.m; sourceTree = "<group>"; };
+		27E2847E07BEBE5800475320 /* PressureLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressureLookup.h; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		418809AA04D33016003541D6 /* Temperature Converter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "Temperature Converter_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Temperature Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Temperature Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E2828A07BE9AC500475320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2729891007C118E500A62B61 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27E2847E07BEBE5800475320 /* PressureLookup.h */,
+				27E283F607BEB80100475320 /* TemperatureCalculator.h */,
+				27E283F707BEB80100475320 /* TemperatureCalculator.m */,
+				1BB9E6CC04BB450F00842B78 /* ApplicationDelegate.h */,
+				1BB9E6CD04BB450F00842B78 /* ApplicationDelegate.m */,
+				1BB9E6C604BB448000842B78 /* CentigradeValueTransformer.h */,
+				1BB9E6C704BB448000842B78 /* CentigradeValueTransformer.m */,
+				1B69926E04C24BDE00475B53 /* FahrenheitValueTransformer.h */,
+				1B69926F04C24BDE00475B53 /* FahrenheitValueTransformer.m */,
+				1BB9E7A504BB595700842B78 /* RankineValueTransformer.h */,
+				1BB9E7A604BB595700842B78 /* RankineValueTransformer.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2729890F07C118E500A62B61 /* SenTestingKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Temperature Converter.app */,
+				27E2828D07BE9AC500475320 /* Untitled.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E282A107BE9B5B00475320 /* Test Cases */ = {
+			isa = PBXGroup;
+			children = (
+				27E282A807BE9E7B00475320 /* TemperatureTest.h */,
+				27E282A907BE9E7B00475320 /* TemperatureTest.m */,
+			);
+			name = "Test Cases";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Temperature Converter */ = {
+			isa = PBXGroup;
+			children = (
+				27E282A107BE9B5B00475320 /* Test Cases */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Temperature Converter";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				418809AA04D33016003541D6 /* Temperature Converter_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27E2828707BE9AC500475320 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107270486CEB800E47090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB9E6C804BB448000842B78 /* CentigradeValueTransformer.h in Headers */,
+				1BB9E6CE04BB450F00842B78 /* ApplicationDelegate.h in Headers */,
+				1BB9E7A704BB595700842B78 /* RankineValueTransformer.h in Headers */,
+				1B69927004C24BDE00475B53 /* FahrenheitValueTransformer.h in Headers */,
+				27E283F807BEB80100475320 /* TemperatureCalculator.h in Headers */,
+				27E2848007BEBE5800475320 /* PressureLookup.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27E2828C07BE9AC500475320 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27292DB20E63530B00E98514 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				27E2828707BE9AC500475320 /* Headers */,
+				27E2828807BE9AC500475320 /* Resources */,
+				27E2828907BE9AC500475320 /* Sources */,
+				27E2828A07BE9AC500475320 /* Frameworks */,
+				27E2828B07BE9AC500475320 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Untitled;
+			productReference = 27E2828D07BE9AC500475320 /* Untitled.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D1107260486CEB800E47090 /* Temperature Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27292DB10E63530B00E98514 /* Build configuration list for PBXNativeTarget "Temperature Converter" */;
+			buildPhases = (
+				8D1107270486CEB800E47090 /* Headers */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Temperature Converter";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Temperature Converter";
+			productReference = 8D1107320486CEB800E47090 /* Temperature Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 27292DB00E63530B00E98514 /* Build configuration list for PBXProject "TemperatureConverter" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Temperature Converter */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Temperature Converter */,
+				27E2828C07BE9AC500475320 /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E2828807BE9AC500475320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				418809AB04D33016003541D6 /* Temperature Converter_Prefix.pch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E2828B07BE9AC500475320 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /Developer/Tools/RunTargetUnitTests;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E2828907BE9AC500475320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2709A6E707BEEB5700B1DB38 /* TemperatureCalculator.m in Sources */,
+				2709A6E607BEEB5000B1DB38 /* CentigradeValueTransformer.m in Sources */,
+				2709A6E407BEEB3900B1DB38 /* TemperatureTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				1BB9E6C904BB448000842B78 /* CentigradeValueTransformer.m in Sources */,
+				1BB9E6CF04BB450F00842B78 /* ApplicationDelegate.m in Sources */,
+				1BB9E7A804BB595700842B78 /* RankineValueTransformer.m in Sources */,
+				1B69927104C24BDE00475B53 /* FahrenheitValueTransformer.m in Sources */,
+				27E283F907BEB80100475320 /* TemperatureCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27292DA70E63530B00E98514 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		27292DA80E63530B00E98514 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		27292DA90E63530B00E98514 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		27292DAA0E63530B00E98514 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Temperature Converter_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Temperature Converter";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		27292DAB0E63530B00E98514 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Temperature Converter_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Temperature Converter";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		27292DAC0E63530B00E98514 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Temperature Converter_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Temperature Converter";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		27292DAD0E63530B00E98514 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "Untitled-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				OTHER_CFLAGS = "-fobjc-exceptions";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Untitled;
+				SECTORDER_FLAGS = "";
+				TEST_AFTER_BUILD = YES;
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		27292DAE0E63530B00E98514 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "Untitled-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				OTHER_CFLAGS = "-fobjc-exceptions";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Untitled;
+				SECTORDER_FLAGS = "";
+				TEST_AFTER_BUILD = YES;
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		27292DAF0E63530B00E98514 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "Untitled-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				OTHER_CFLAGS = "-fobjc-exceptions";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Untitled;
+				SECTORDER_FLAGS = "";
+				TEST_AFTER_BUILD = YES;
+				WARNING_CFLAGS = "-Wmost";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27292DB00E63530B00E98514 /* Build configuration list for PBXProject "TemperatureConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27292DA70E63530B00E98514 /* Development */,
+				27292DA80E63530B00E98514 /* Deployment */,
+				27292DA90E63530B00E98514 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		27292DB10E63530B00E98514 /* Build configuration list for PBXNativeTarget "Temperature Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27292DAA0E63530B00E98514 /* Development */,
+				27292DAB0E63530B00E98514 /* Deployment */,
+				27292DAC0E63530B00E98514 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		27292DB20E63530B00E98514 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27292DAD0E63530B00E98514 /* Development */,
+				27292DAE0E63530B00E98514 /* Deployment */,
+				27292DAF0E63530B00E98514 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
